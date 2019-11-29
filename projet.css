@@ -2,6 +2,16 @@
 {
 color: rgb(55, 79, 219);
 }
+h1 
+{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.tt
+{
+color: white;
+}
 body {
     margin: 0;
 }
@@ -11,12 +21,12 @@ body {
  background-image: url(image/img.jpg);
  width: 100%;
  height: 800px;
-  padding: 0;
+padding: 0;
   margin: 0;
 }
 .column1
 {
- width: 1170px;
+width: 1170px;
 margin: 0 auto;
 display: flex;
 justify-content: space-between;
@@ -26,10 +36,13 @@ justify-content: space-between;
 {
 list-style: none;
 display: flex;
+
 }
 ul li 
 {
 padding: 15px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
 }
 .container-large{
 margin: o;
@@ -40,6 +53,8 @@ width: 100%;
 {
 display: flex;
 justify-content: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: lighter;
 }
 
 
@@ -48,9 +63,9 @@ justify-content: center;
 {
     background-color: rgb( 29, 202, 255);
     width: 100%;
-    height: 304px;
-     padding: 0;
-     margin: 0;
+    height: 405px;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -60,12 +75,16 @@ width: 1170px;
 margin: 0 auto;
 display: flex;
 flex-direction: column;
-justify-content: space-between;  
+justify-content: space-between;
+  
 }
+
 .menu2
 {
 list-style: none;
 display: flex;
+justify-content: space-around;
+
 }
 ul li 
 {
@@ -77,10 +96,21 @@ margin: o;
  width: 100%;
 }
 
-
     /* 3rd partie */
-.column3
+.color3
 {
+background-color: rgb(233, 236, 236);
+width: 100%;
+height: 800px;
+padding: 0;
+margin: 0; 
+}
+
+
+.column3
+
+{
+
 width: 1170px;
 margin: 0 auto;
 display: flex;
@@ -99,6 +129,18 @@ padding: 15px;
 margin: o;
 width: 100%;
 }
+.nature3
+
+{
+display: flex;
+background-image: url(image/paysage.jpg);
+width: 100%;
+height: 600px;
+padding: 0;
+  margin: 0;
+}
+
+
 
 
         /* 4th partie */
@@ -155,7 +197,7 @@ justify-content: left;
     /*6th partie */
 .color6
 {
-background-image: url(image/img2.jpg);
+background-image: url(image/img4.jpg);
 width: 100%;
 height: 506px;
 padding: 0;
@@ -191,6 +233,17 @@ padding: 15px;
  width: 100%;  
  }
 /* 7th partie */
+.color7
+{
+    background-color: rgb(233, 236, 236);
+    width: 100%;
+    height: 360px;
+    padding: 0;
+    margin: 0; 
+}
+
+
+
 .column7
 {
     width: 1170px;
@@ -206,7 +259,7 @@ padding: 15px;
 {
     background-image: url(image/img3.jpg);
     width: 100%;
-    height: 984px;
+    height: 800px;
     padding: 0;
     margin: 0;
 }
@@ -231,6 +284,16 @@ display: flex;
 
 
 /* 9th partie */
+
+.color9
+{
+background-color: gray;
+width: 100%;
+height: 170px;
+ padding: 0;
+margin: 0; 
+}
+
  .column9
 {
  width: 1170px;
@@ -240,12 +303,12 @@ display: flex;
 }
 .menu9 
 {
-    list-style: none;
-    display: flex;
+list-style: none;
+display: flex;
 }
 ul li
 {
-    padding: 15px;
+padding: 15px;
 }
 .container-large
 {
@@ -255,7 +318,7 @@ width: 100%;
 annee 
 {
 display: flex ;
-
+list-style: none;
 
 }
 
